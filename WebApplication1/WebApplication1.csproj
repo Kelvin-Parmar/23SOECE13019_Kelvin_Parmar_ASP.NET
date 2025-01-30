@@ -67,9 +67,65 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="A1%28Q1%29.aspx" />
+    <Content Include="A1%28Q2%29.aspx" />
+    <Content Include="A1%28Q3%29.aspx" />
+    <Content Include="A1%28Q4%29.aspx" />
+    <Content Include="A2%28Q1%29.aspx" />
+    <Content Include="A2%28Q2%29.aspx" />
+    <Content Include="A2%28Q3%29.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="A1%28Q1%29.aspx.cs">
+      <DependentUpon>A1%28Q1%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A1%28Q1%29.aspx.designer.cs">
+      <DependentUpon>A1%28Q1%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A1%28Q2%29.aspx.cs">
+      <DependentUpon>A1%28Q2%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A1%28Q2%29.aspx.designer.cs">
+      <DependentUpon>A1%28Q2%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A1%28Q3%29.aspx.cs">
+      <DependentUpon>A1%28Q3%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A1%28Q3%29.aspx.designer.cs">
+      <DependentUpon>A1%28Q3%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A1%28Q4%29.aspx.cs">
+      <DependentUpon>A1%28Q4%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A1%28Q4%29.aspx.designer.cs">
+      <DependentUpon>A1%28Q4%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A2%28Q1%29.aspx.cs">
+      <DependentUpon>A2%28Q1%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A2%28Q1%29.aspx.designer.cs">
+      <DependentUpon>A2%28Q1%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A2%28Q2%29.aspx.cs">
+      <DependentUpon>A2%28Q2%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A2%28Q2%29.aspx.designer.cs">
+      <DependentUpon>A2%28Q2%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A2%28Q3%29.aspx.cs">
+      <DependentUpon>A2%28Q3%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A2%28Q3%29.aspx.designer.cs">
+      <DependentUpon>A2%28Q3%29.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
